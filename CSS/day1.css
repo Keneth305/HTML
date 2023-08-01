@@ -1,0 +1,44 @@
+/* Resetting default margin and padding for elements */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Applying styles to the header */
+header {
+    background-color: #333;
+    color: blueviolet;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Applying styles to the main content area */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #007bff;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Applying styles to the footer */
+footer {
+    background-color: #333;
+    color: green;
+    text-align: center;
+    padding: 10px;
+}
