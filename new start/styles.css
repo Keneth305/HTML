@@ -1,0 +1,22 @@
+/* Applying styles to the boxes */
+.box {
+    width: 200px;
+    height: 150px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Styling the heading within the boxes */
+.box h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Styling the paragraph within the boxes */
+.box p {
+    font-size: 16px;
+    line-height: 1.5;
+}
