@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 700px;
+    border: 2px solid purple;
+    margin: 30px auto;
+    /* on the x-axis, it leaves an equal space from both the left and right sides. */
+}
+
+#fruit {
+    float: left;
+    width: 47%;
+}
+
+#computer {
+    float: right;
+    width: 47%;
+}
+
+#stationary {
+    /* float: left; */
+    /* any floating elements to the left side will be cleared off the way from stationary */
+    clear: both;
+    width: 98%;
+}
+
+.item {
+    border: 2px solid red;
+    margin: 12px 3px;
+    padding: 12px 3px;
+    background-color: #eadddd;
+}
+
+p,
+h2,
+h3 {
+    text-align: center;
+    text-align: left;
+    text-align: right;
+    text-align: justify;
+}
